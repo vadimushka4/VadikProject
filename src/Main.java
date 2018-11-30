@@ -3,6 +3,7 @@ public class Main {
         System.out.println("Huj");
         // Pizda - huj
         // ya eby losey
-        // Vadik - ebash blja!!!
+        // ebat evreev
+        k
     }
 }
