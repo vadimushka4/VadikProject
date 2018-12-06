@@ -1,3 +1,5 @@
+package day1.objects;
+
 import java.util.ArrayList;
 
 public class Main {

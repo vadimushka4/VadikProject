@@ -1,3 +1,5 @@
+package day1.objects;
+
 public class Car {
 
 
