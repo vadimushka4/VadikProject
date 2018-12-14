@@ -20,8 +20,13 @@ public class Main {
         cars[1] = new Car(220, "white", 4000);
         cars[2] = new Car(230, "brown", 4200);
 
-        for (int i = 0; i < cars.length; i++){
+        for (int i = 0; i < cars.length; i++) {
+            Car car = cars[i];
             System.out.println(cars[i].getSpeed() + " " + cars[i].getColour() + " " + cars[i].getPrice());
+        }
+
+        for (Car car : cars) {
+            System.out.println(car.getSpeed() + " " + car.getColour() + " " + car.getPrice());
         }
 
         ArrayList<Car> carsList = new ArrayList<>();
