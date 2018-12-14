@@ -10,5 +10,13 @@ public class Conditions {
         if (a != b) {
             System.out.println("a != b");
         }
+
+        if (a > 2 && a < 8) {
+
+        }
+
+        if (a > 2 || a < 8) {
+
+        }
     }
 }
