@@ -1,4 +1,4 @@
-package day2.Inheritance;
+package day2.inheritance;
 
 public class Dog extends Animal {
 
@@ -13,6 +13,11 @@ public class Dog extends Animal {
     @Override
     public void say() {
         System.out.println("I am an dog");
+    }
+
+    @Override
+    public void ebatb() {
+
     }
 
     public void eat() {

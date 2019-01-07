@@ -1,6 +1,6 @@
-package day2.Inheritance;
+package day2.inheritance;
 
-public class Animal {
+public abstract class Animal {
 
     protected String name = "Animal";
     private int age = 10;
@@ -27,11 +27,7 @@ public class Animal {
 
     public void setAge(int age) { this.age = age; }
 
-    public void say() {
-        System.out.println("I am an Animal");
-    }
+    public abstract void say();
 
-    public void ebatb() {
-        System.out.println("I am a 4MO");
-    }
+    public abstract void ebatb();
 }
